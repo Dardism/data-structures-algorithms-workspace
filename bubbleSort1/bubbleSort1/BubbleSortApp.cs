@@ -20,6 +20,8 @@ namespace bubbleSort {
       arr.insert(00);
       arr.insert(66);
       arr.insert(33);
+      arr.insert(32);
+
 
       arr.display();
 
