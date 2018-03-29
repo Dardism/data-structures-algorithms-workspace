@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//BigO Time: N^2 - still slow, but signifintly faster than the bubble becasue of a lot less swapping
 namespace selectSort {
   class SelectSortApp {
     static void Main(string[] args) {
