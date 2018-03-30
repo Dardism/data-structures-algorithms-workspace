@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//BigO: N^2 - but twice as fast as bubble sort, and faster than selection sort. fastest among the simple sorts
+//good if data is already partially or mostly sorted
 namespace insertionSort {
   class InsertSortApp {
     static void Main(string[] args) {
