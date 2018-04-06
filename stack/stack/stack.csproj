@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Reverser.cs" />
     <Compile Include="StackApp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StackX.cs" />
