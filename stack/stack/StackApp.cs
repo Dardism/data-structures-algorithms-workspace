@@ -8,21 +8,31 @@ namespace stack {
   class StackApp {
     static void Main(string[] args) {
       string input;
-      string output;
 
       while (true) {
-        Console.WriteLine("Ener a string: ");
+        Console.Write("Enter string containing delimiters: ");
         input = Console.ReadLine();
-
         if (input == "") { //if they quit (hitting Enter)
           break; 
         }
 
-        Reverser theReverser = new Reverser(input);
-        output = theReverser.DoRev();
-
-        Console.WriteLine("Reversed: " + output);
+        DelimiterChecker theChecker = new DelimiterChecker(input);
+        theChecker.check();
       }
-    }
+
+        //while (true) { This is for testing Reverser class
+        //  Console.WriteLine("Ener a string: ");
+        //  input = Console.ReadLine();
+
+        //  if (input == "") { //if they quit (hitting Enter)
+        //    break; 
+        //  }
+
+        //  Reverser theReverser = new Reverser(input);
+        //  output = theReverser.DoRev();
+
+        //  Console.WriteLine("Reversed: " + output);
+        //}
+      }
   }
 }

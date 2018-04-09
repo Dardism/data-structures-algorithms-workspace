@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DelimiterChecker.cs" />
     <Compile Include="Reverser.cs" />
     <Compile Include="StackApp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
