@@ -11,7 +11,7 @@ namespace anagram {
     static char[] arrChar = new char[100];
 
     static void Main(string[] args) {
-      Console.WriteLine("Enter a wor: "); //get word
+      Console.WriteLine("Enter a word: "); //get word
       string input = getString();
       size = input.Length;
       count = 0;
@@ -39,7 +39,7 @@ namespace anagram {
     }
     //************************************************
     public static void rotate(int newSize) {
-      int j;                            
+      int j;
       int position = size - newSize;
       char temp = arrChar[position];          //save first letter
 
@@ -49,6 +49,7 @@ namespace anagram {
       arrChar[j - 1] = temp;                  //put first on right
     }
     //************************************************
+
     public static void displayWord() {
       if (count < 99) {
         Console.Write(" ");
